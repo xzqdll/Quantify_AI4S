@@ -9,15 +9,9 @@ selected AI-related computer-science conference abstracts.
 - `configs/`: analysis and model configuration files.
 - `data/`: data documentation and local data layers; large or restricted data
   are not tracked by Git.
-- `docs/`: reproducibility, data-governance, and contributor documentation.
-- `models/`: model documentation and links to archived weights.
-- `notebooks/`: numbered notebooks for exploration and result reproduction.
-- `prompts/`: versioned prompt templates used in benchmark generation and topic
-  interpretation.
-- `results/`: generated figures, tables, and run logs.
-- `scripts/`: command-line entry points for end-to-end workflows.
-- `src/llm_impact_on_ai_pub/`: reusable Python package.
-- `tests/`: automated tests and small synthetic fixtures.
+- `code_get_paper_data/`: pipeline of collecting data.
+- `code_analysis/`: measurement and plotting figures.
+- `detector_adaptation/`
 
 ## Reproducibility
 
