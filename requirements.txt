@@ -1,0 +1,3 @@
+# Export the verified, pinned environment before public release.
+# Example: conda env export --from-history > environment.yml
+

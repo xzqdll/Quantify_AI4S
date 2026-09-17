@@ -1,0 +1,54 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Environments and notebooks
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+.idea/
+*~
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+results/logs/*
+!results/logs/.gitkeep
+
+# Restricted, generated, or large data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/source_data/*
+!data/source_data/.gitkeep
+
+# Model weights and generated artefacts
+detector_adaptation/models/*.bin
+detector_adaptation/models/*.pt
+detector_adaptation/models/*.pth
+detector_adaptation/models/*.ckpt
+detector_adaptation/models/*.safetensors

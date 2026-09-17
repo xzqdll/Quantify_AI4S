@@ -1,0 +1,8 @@
+name: llm-impact-ai-pub
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  # Pin the verified analysis dependencies before public release.
+
