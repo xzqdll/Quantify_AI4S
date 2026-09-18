@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+features/*
+!features/.gitkeep
+predictions/*
+!predictions/.gitkeep
+results/method1_direct_validation/
+results/method2_last_layer_150/
+results/method3_full_head/
+data/raw/

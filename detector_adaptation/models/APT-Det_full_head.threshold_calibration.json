@@ -1,0 +1,20 @@
+{
+  "checkpoint": "CS_Task3_our_benchmark_full_head_best.pth",
+  "checkpoint_source": "method3_full_head/run_02/best_classifier_head.pth",
+  "checkpoint_sha256": "894e2e561a8fe2426aeafb66f451dd6adb0f108781172e112473fc83fd29d460",
+  "calibrated_ai_probability_threshold": 0.03,
+  "selection_dataset": "validation",
+  "selection_metric": "macro_f1",
+  "threshold_grid": {
+    "start": 0.01,
+    "stop": 0.99,
+    "step": 0.01
+  },
+  "tie_breakers": [
+    "balanced_accuracy",
+    "distance_to_0.5"
+  ],
+  "test_set_used_for_threshold_selection": false,
+  "retraining_performed": false,
+  "weights_updated": false
+}

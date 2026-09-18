@@ -1,0 +1,12 @@
+{
+  "seed": 202,
+  "training_samples": 29515,
+  "class_weights": [
+    0.625,
+    2.5
+  ],
+  "trainable_parameters": "entire CheckGPT classification head",
+  "roberta_parameters": "frozen via cached features",
+  "best_validation_macro_f1": 0.9923350779085628,
+  "epochs_completed": 15
+}
